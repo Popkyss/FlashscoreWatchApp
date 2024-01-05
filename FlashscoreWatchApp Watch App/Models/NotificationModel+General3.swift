@@ -5,4 +5,15 @@
 //  Created by Jan Pokorný on 05.01.2024.
 //
 
-import Foundation
+extension NotificationModel {
+
+	struct General3: Decodable {
+		let aps: NotificationModel.Aps
+		let custom: NotificationModel.Custom3?
+	}
+
+	struct Custom3: Decodable {
+		let param3: String?
+	}
+
+}

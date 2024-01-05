@@ -17,11 +17,15 @@ class NotificationController1: WKUserNotificationHostingController<NotificationV
 	}
 
 	override func didReceive(_ notification: UNNotification) {
-		let notificationData = notification.request.content.userInfo as? [String: Any]
+		guard let model = decodeNotification(from: notification.request) else { return }
+		title = model.aps.alert.title
+	}
 
-		let aps = notificationData?["aps"] as? [String: Any]
-		let alert = aps?["alert"] as? [String: Any]
-
-		title = alert?["title"] as? String
+	private func decodeNotification(from request: UNNotificationRequest) -> NotificationModel.General1? {
+		let decoder = JSONDecoder()
+		return try? decoder.decode(
+			NotificationModel.General1.self,
+			from: JSONSerialization.data(withJSONObject: request.content.userInfo)
+		)
 	}
 }

@@ -5,4 +5,11 @@
 //  Created by Jan Pokorný on 05.01.2024.
 //
 
-import Foundation
+extension NotificationModel {
+
+	struct Alert: Decodable {
+		let title: String
+		let body: String
+	}
+	
+}

@@ -6,13 +6,6 @@
         },
         "category": "flashscoreIdentifier1",
         "thread-id": "5280"
-    },
-    
-    "WatchKit Simulator Actions": [
-        {
-            "title": "First Button",
-            "identifier": "firstButtonAction"
-        }
-    ],
+    }
 
 }

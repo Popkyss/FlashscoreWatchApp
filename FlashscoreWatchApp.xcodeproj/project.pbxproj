@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C667E4C2B484E4300C89438 /* FlashscoreWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9941572B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift */; };
+		7C667E4E2B484EA100C89438 /* NotificationView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E4D2B484EA100C89438 /* NotificationView1.swift */; };
+		7C667E502B484ED100C89438 /* NotificationController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E4F2B484ED100C89438 /* NotificationController1.swift */; };
+		7C667E522B4851B400C89438 /* NotificationController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E512B4851B400C89438 /* NotificationController3.swift */; };
+		7C667E542B4851BC00C89438 /* NotificationController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E532B4851BC00C89438 /* NotificationController2.swift */; };
+		7C667E562B48520100C89438 /* NotificationView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E552B48520100C89438 /* NotificationView3.swift */; };
+		7C667E582B48520600C89438 /* NotificationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E572B48520600C89438 /* NotificationView2.swift */; };
+		7C667E5C2B48565100C89438 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E5B2B48565100C89438 /* HomeView.swift */; };
+		7C667E612B4856FC00C89438 /* MatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E602B4856FC00C89438 /* MatchDetailView.swift */; };
+		7C667E632B4857D500C89438 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E622B4857D500C89438 /* DetailView.swift */; };
+		7C667E652B4857EB00C89438 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E642B4857EB00C89438 /* NewsView.swift */; };
+		7C667E6B2B48793400C89438 /* NotificationModel+Aps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E6A2B48793400C89438 /* NotificationModel+Aps.swift */; };
+		7C667E6D2B4881A700C89438 /* NotificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E6C2B4881A700C89438 /* NotificationModel.swift */; };
+		7C667E702B48823B00C89438 /* NotificationModel+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E6F2B48823B00C89438 /* NotificationModel+Alert.swift */; };
+		7C667E722B48826800C89438 /* NotificationModel+General1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E712B48826800C89438 /* NotificationModel+General1.swift */; };
+		7C667E742B4882BC00C89438 /* NotificationModel+General2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E732B4882BC00C89438 /* NotificationModel+General2.swift */; };
+		7C667E762B4882DB00C89438 /* NotificationModel+General3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E752B4882DB00C89438 /* NotificationModel+General3.swift */; };
+		7C667E7B2B4885D000C89438 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E7A2B4885D000C89438 /* FavoritesView.swift */; };
+		7C667E7D2B48861E00C89438 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E7C2B48861E00C89438 /* SettingsView.swift */; };
+		7C667E7F2B48862F00C89438 /* TopNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E7E2B48862F00C89438 /* TopNewsView.swift */; };
 		7C9941582B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9941572B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift */; };
 		7C99415A2B4827FD005EE3E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9941592B4827FD005EE3E3 /* ContentView.swift */; };
 		7C99415C2B4827FE005EE3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C99415B2B4827FE005EE3E3 /* Assets.xcassets */; };
 		7C99415F2B4827FE005EE3E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C99415E2B4827FE005EE3E3 /* Preview Assets.xcassets */; };
 		7C9941652B4827FE005EE3E3 /* FlashscoreWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 7C9941642B4827FE005EE3E3 /* FlashscoreWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		7C99416A2B4827FE005EE3E3 /* FlashscoreWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9941692B4827FE005EE3E3 /* FlashscoreWatchAppApp.swift */; };
 		7C99416C2B4827FE005EE3E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C99416B2B4827FE005EE3E3 /* ContentView.swift */; };
 		7C99416E2B4827FF005EE3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C99416D2B4827FF005EE3E3 /* Assets.xcassets */; };
 		7C9941712B4827FF005EE3E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C9941702B4827FF005EE3E3 /* Preview Assets.xcassets */; };
@@ -40,19 +59,50 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7C99418A2B482ADC005EE3E3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7C667E4D2B484EA100C89438 /* NotificationView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView1.swift; sourceTree = "<group>"; };
+		7C667E4F2B484ED100C89438 /* NotificationController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationController1.swift; sourceTree = "<group>"; };
+		7C667E512B4851B400C89438 /* NotificationController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController3.swift; sourceTree = "<group>"; };
+		7C667E532B4851BC00C89438 /* NotificationController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController2.swift; sourceTree = "<group>"; };
+		7C667E552B48520100C89438 /* NotificationView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView3.swift; sourceTree = "<group>"; };
+		7C667E572B48520600C89438 /* NotificationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView2.swift; sourceTree = "<group>"; };
+		7C667E592B48532300C89438 /* PushNotificationPayload2.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload2.apns; sourceTree = "<group>"; };
+		7C667E5A2B48533100C89438 /* PushNotificationPayload3.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload3.apns; sourceTree = "<group>"; };
+		7C667E5B2B48565100C89438 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7C667E602B4856FC00C89438 /* MatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailView.swift; sourceTree = "<group>"; };
+		7C667E622B4857D500C89438 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		7C667E642B4857EB00C89438 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		7C667E6A2B48793400C89438 /* NotificationModel+Aps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationModel+Aps.swift"; sourceTree = "<group>"; };
+		7C667E6C2B4881A700C89438 /* NotificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModel.swift; sourceTree = "<group>"; };
+		7C667E6F2B48823B00C89438 /* NotificationModel+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationModel+Alert.swift"; sourceTree = "<group>"; };
+		7C667E712B48826800C89438 /* NotificationModel+General1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationModel+General1.swift"; sourceTree = "<group>"; };
+		7C667E732B4882BC00C89438 /* NotificationModel+General2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationModel+General2.swift"; sourceTree = "<group>"; };
+		7C667E752B4882DB00C89438 /* NotificationModel+General3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationModel+General3.swift"; sourceTree = "<group>"; };
+		7C667E7A2B4885D000C89438 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		7C667E7C2B48861E00C89438 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7C667E7E2B48862F00C89438 /* TopNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsView.swift; sourceTree = "<group>"; };
 		7C9941542B4827FD005EE3E3 /* FlashscoreWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashscoreWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9941572B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashscoreWatchAppApp.swift; sourceTree = "<group>"; };
 		7C9941592B4827FD005EE3E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C99415B2B4827FE005EE3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C99415E2B4827FE005EE3E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C9941642B4827FE005EE3E3 /* FlashscoreWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FlashscoreWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C9941692B4827FE005EE3E3 /* FlashscoreWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashscoreWatchAppApp.swift; sourceTree = "<group>"; };
 		7C99416B2B4827FE005EE3E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7C99416D2B4827FF005EE3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C9941702B4827FF005EE3E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7C99418F2B48327A005EE3E3 /* PushNotificationPayload1.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload1.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +123,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C667E5D2B48566300C89438 /* NotificationType1 */ = {
+			isa = PBXGroup;
+			children = (
+				7C667E4D2B484EA100C89438 /* NotificationView1.swift */,
+				7C667E4F2B484ED100C89438 /* NotificationController1.swift */,
+				7C99418F2B48327A005EE3E3 /* PushNotificationPayload1.apns */,
+			);
+			path = NotificationType1;
+			sourceTree = "<group>";
+		};
+		7C667E5E2B48567300C89438 /* NotificationType2 */ = {
+			isa = PBXGroup;
+			children = (
+				7C667E572B48520600C89438 /* NotificationView2.swift */,
+				7C667E532B4851BC00C89438 /* NotificationController2.swift */,
+				7C667E592B48532300C89438 /* PushNotificationPayload2.apns */,
+			);
+			path = NotificationType2;
+			sourceTree = "<group>";
+		};
+		7C667E5F2B48568600C89438 /* NotificationType3 */ = {
+			isa = PBXGroup;
+			children = (
+				7C667E552B48520100C89438 /* NotificationView3.swift */,
+				7C667E512B4851B400C89438 /* NotificationController3.swift */,
+				7C667E5A2B48533100C89438 /* PushNotificationPayload3.apns */,
+			);
+			path = NotificationType3;
+			sourceTree = "<group>";
+		};
+		7C667E6E2B48822100C89438 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7C667E6C2B4881A700C89438 /* NotificationModel.swift */,
+				7C667E6A2B48793400C89438 /* NotificationModel+Aps.swift */,
+				7C667E6F2B48823B00C89438 /* NotificationModel+Alert.swift */,
+				7C667E712B48826800C89438 /* NotificationModel+General1.swift */,
+				7C667E732B4882BC00C89438 /* NotificationModel+General2.swift */,
+				7C667E752B4882DB00C89438 /* NotificationModel+General3.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7C667E772B48853400C89438 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C99416B2B4827FE005EE3E3 /* ContentView.swift */,
+				7C667E782B48854700C89438 /* Home */,
+				7C667E792B48855700C89438 /* Detail */,
+				7C667E602B4856FC00C89438 /* MatchDetailView.swift */,
+				7C667E622B4857D500C89438 /* DetailView.swift */,
+				7C667E642B4857EB00C89438 /* NewsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7C667E782B48854700C89438 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7C667E5B2B48565100C89438 /* HomeView.swift */,
+				7C667E7A2B4885D000C89438 /* FavoritesView.swift */,
+				7C667E7C2B48861E00C89438 /* SettingsView.swift */,
+				7C667E7E2B48862F00C89438 /* TopNewsView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7C667E792B48855700C89438 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		7C99414B2B4827FD005EE3E3 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +218,8 @@
 		7C9941562B4827FD005EE3E3 /* FlashscoreWatchApp */ = {
 			isa = PBXGroup;
 			children = (
-				7C9941572B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift */,
 				7C9941592B4827FD005EE3E3 /* ContentView.swift */,
+				7C9941572B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift */,
 				7C99415B2B4827FE005EE3E3 /* Assets.xcassets */,
 				7C99415D2B4827FE005EE3E3 /* Preview Content */,
 			);
@@ -113,8 +237,11 @@
 		7C9941682B4827FE005EE3E3 /* FlashscoreWatchApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				7C9941692B4827FE005EE3E3 /* FlashscoreWatchAppApp.swift */,
-				7C99416B2B4827FE005EE3E3 /* ContentView.swift */,
+				7C667E772B48853400C89438 /* Views */,
+				7C667E6E2B48822100C89438 /* Models */,
+				7C667E5D2B48566300C89438 /* NotificationType1 */,
+				7C667E5E2B48567300C89438 /* NotificationType2 */,
+				7C667E5F2B48568600C89438 /* NotificationType3 */,
 				7C99416D2B4827FF005EE3E3 /* Assets.xcassets */,
 				7C99416F2B4827FF005EE3E3 /* Preview Content */,
 			);
@@ -158,6 +285,7 @@
 				7C9941602B4827FE005EE3E3 /* Sources */,
 				7C9941612B4827FE005EE3E3 /* Frameworks */,
 				7C9941622B4827FE005EE3E3 /* Resources */,
+				7C99418A2B482ADC005EE3E3 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -240,8 +368,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C667E582B48520600C89438 /* NotificationView2.swift in Sources */,
+				7C667E7B2B4885D000C89438 /* FavoritesView.swift in Sources */,
+				7C667E5C2B48565100C89438 /* HomeView.swift in Sources */,
 				7C99416C2B4827FE005EE3E3 /* ContentView.swift in Sources */,
-				7C99416A2B4827FE005EE3E3 /* FlashscoreWatchAppApp.swift in Sources */,
+				7C667E702B48823B00C89438 /* NotificationModel+Alert.swift in Sources */,
+				7C667E7D2B48861E00C89438 /* SettingsView.swift in Sources */,
+				7C667E6D2B4881A700C89438 /* NotificationModel.swift in Sources */,
+				7C667E7F2B48862F00C89438 /* TopNewsView.swift in Sources */,
+				7C667E742B4882BC00C89438 /* NotificationModel+General2.swift in Sources */,
+				7C667E632B4857D500C89438 /* DetailView.swift in Sources */,
+				7C667E762B4882DB00C89438 /* NotificationModel+General3.swift in Sources */,
+				7C667E6B2B48793400C89438 /* NotificationModel+Aps.swift in Sources */,
+				7C667E542B4851BC00C89438 /* NotificationController2.swift in Sources */,
+				7C667E522B4851B400C89438 /* NotificationController3.swift in Sources */,
+				7C667E4E2B484EA100C89438 /* NotificationView1.swift in Sources */,
+				7C667E722B48826800C89438 /* NotificationModel+General1.swift in Sources */,
+				7C667E502B484ED100C89438 /* NotificationController1.swift in Sources */,
+				7C667E612B4856FC00C89438 /* MatchDetailView.swift in Sources */,
+				7C667E652B4857EB00C89438 /* NewsView.swift in Sources */,
+				7C667E4C2B484E4300C89438 /* FlashscoreWatchAppApp.swift in Sources */,
+				7C667E562B48520100C89438 /* NotificationView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +531,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = FlashscoreWatchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = eu.livesport.FlashscoreWatchApp;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -414,6 +562,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = FlashscoreWatchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = eu.livesport.FlashscoreWatchApp;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
