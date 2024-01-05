@@ -27,7 +27,6 @@
 		7C667E7B2B4885D000C89438 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E7A2B4885D000C89438 /* FavoritesView.swift */; };
 		7C667E7D2B48861E00C89438 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E7C2B48861E00C89438 /* SettingsView.swift */; };
 		7C667E7F2B48862F00C89438 /* TopNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E7E2B48862F00C89438 /* TopNewsView.swift */; };
-		7C667E812B48932A00C89438 /* FSFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C667E802B48932A00C89438 /* FSFont.swift */; };
 		7C9941582B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9941572B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift */; };
 		7C99415A2B4827FD005EE3E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9941592B4827FD005EE3E3 /* ContentView.swift */; };
 		7C99415C2B4827FE005EE3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C99415B2B4827FE005EE3E3 /* Assets.xcassets */; };
@@ -94,7 +93,6 @@
 		7C667E7A2B4885D000C89438 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		7C667E7C2B48861E00C89438 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		7C667E7E2B48862F00C89438 /* TopNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsView.swift; sourceTree = "<group>"; };
-		7C667E802B48932A00C89438 /* FSFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSFont.swift; sourceTree = "<group>"; };
 		7C9941542B4827FD005EE3E3 /* FlashscoreWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashscoreWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C9941572B4827FD005EE3E3 /* FlashscoreWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashscoreWatchAppApp.swift; sourceTree = "<group>"; };
 		7C9941592B4827FD005EE3E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -239,7 +237,6 @@
 		7C9941682B4827FE005EE3E3 /* FlashscoreWatchApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				7C667E802B48932A00C89438 /* FSFont.swift */,
 				7C667E772B48853400C89438 /* Views */,
 				7C667E6E2B48822100C89438 /* Models */,
 				7C667E5D2B48566300C89438 /* NotificationType1 */,
@@ -376,7 +373,6 @@
 				7C667E5C2B48565100C89438 /* HomeView.swift in Sources */,
 				7C99416C2B4827FE005EE3E3 /* ContentView.swift in Sources */,
 				7C667E702B48823B00C89438 /* NotificationModel+Alert.swift in Sources */,
-				7C667E812B48932A00C89438 /* FSFont.swift in Sources */,
 				7C667E7D2B48861E00C89438 /* SettingsView.swift in Sources */,
 				7C667E6D2B4881A700C89438 /* NotificationModel.swift in Sources */,
 				7C667E7F2B48862F00C89438 /* TopNewsView.swift in Sources */,

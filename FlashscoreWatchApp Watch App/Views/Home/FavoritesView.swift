@@ -9,25 +9,15 @@ import SwiftUI
 
 struct FavoritesView: View {
 
-	struct RowModel: Identifiable {
-		let id: UUID
-		let homeImage: String
-		let awayImage: String
-		let middleValue: MiddleValue
-	}
-
-	enum MiddleValue {
-		case prematch(String)
-		case live(String, String, String, String)
-		case finished(String, String, String)
-	}
-
 	let model: [RowModel]
 
 	var body: some View {
-		VStack(spacing: 8) {
+		VStack(spacing: 6) {
 			ForEach(model, id: \.id) { row in
-				detailRow(model: row)
+				Button(action: {}) {
+					detailRow(model: row)
+				}
+				.buttonStyle(.plain)
 			}
 		}
 	}
@@ -42,7 +32,7 @@ struct FavoritesView: View {
 			logoImage(image: model.awayImage)
 		}
 		.padding(.horizontal, 8)
-		.padding(.vertical, 6)
+		.frame(height: 44)
 		.background(.blue)
 		.cornerRadius(9)
 	}
@@ -60,35 +50,33 @@ struct FavoritesView: View {
 	private func middleValue(model: MiddleValue) -> some View {
 		switch model {
 		case .prematch(let time):
-			text(time)
+			text(time, .text)
 
-		case .live(let homeScore, let awayScore, let time, let stage):
-			VStack(spacing: 8) {
-				HStack(spacing: 8) {
-					Text(homeScore)
-					Text("-")
-					Text(awayScore)
-				}
-				Text(time)
-				Text(stage)
-			}
-			.foregroundColor(.red)
+		case .live(let homeScore, let awayScore, let time):
+			score(homeScore: homeScore, awayScore: awayScore, label: time)
+				.foregroundColor(.red)
 
 		case .finished(let homeScore, let awayScore, let stage):
-			VStack(spacing: 8) {
-				HStack(spacing: 8) {
-					Text(homeScore)
-					Text("-")
-					Text(awayScore)
-				}
-				Text(stage)
-			}
+			score(homeScore: homeScore, awayScore: awayScore, label: stage)
+				.foregroundColor(.white)
 		}
 	}
 
 	@ViewBuilder
-	private func text(_ text: String) -> some View {
-		let fontValue = getFont(.score)
+	private func score(homeScore: String, awayScore: String, label: String) -> some View {
+		VStack(spacing: 1) {
+			HStack(spacing: 4) {
+				text(homeScore, .score)
+				text("-", .score)
+				text(awayScore, .score)
+			}
+			text(label, .text)
+		}
+	}
+
+	@ViewBuilder
+	private func text(_ text: String, _ fontType: FontType) -> some View {
+		let fontValue = getFont(fontType)
 		let font = fontValue.uiFont
 		let lineHeight = fontValue.lineHeight
 
@@ -99,16 +87,17 @@ struct FavoritesView: View {
 	}
 
 	private enum FontType {
-		case score, stage
+		case score, text
 	}
 
 	private func getFont(_ textType: FontType) -> (uiFont: UIFont, lineHeight: CGFloat) {
 		switch textType {
-		case .score:
-			return (UIFont.fs.regular(13), 15.5)
+		case .text:
+			return (
+				UIFont.systemFont(ofSize: 13, weight: UIFont.Weight(rawValue: 400)), 15.5)
 
-		case .stage:
-			return (UIFont.fs.regular(13), 15.5)
+		case .score:
+			return (UIFont.systemFont(ofSize: 15, weight: UIFont.Weight(rawValue: 700)), 18.5)
 		}
 	}
 }
@@ -121,7 +110,32 @@ struct FavoritesView: View {
 				homeImage: "bolt.horizontal.circle.fill",
 				awayImage: "bolt.horizontal.circle",
 				middleValue: .prematch("18:00")
+			),
+			.init(
+				id: UUID(),
+				homeImage: "bolt.horizontal.circle",
+				awayImage: "bolt.horizontal.circle.fill",
+				middleValue: .live("2", "1", "34'")
+			),
+			.init(
+				id: UUID(),
+				homeImage: "bolt.horizontal.circle.fill",
+				awayImage: "bolt.horizontal.circle",
+				middleValue: .prematch("18:00")
 			)
 		]
 	)
+}
+
+struct RowModel: Identifiable {
+	let id: UUID
+	let homeImage: String
+	let awayImage: String
+	let middleValue: MiddleValue
+}
+
+enum MiddleValue {
+	case prematch(String)
+	case live(String, String, String)
+	case finished(String, String, String)
 }
