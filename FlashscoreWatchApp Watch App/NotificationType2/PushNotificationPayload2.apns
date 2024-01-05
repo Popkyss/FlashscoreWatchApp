@@ -1,0 +1,18 @@
+{
+	"aps": {
+		"alert": {
+			"body": "Test message 2",
+			"title": "Optional title 2",
+		},
+		"category": "flashscoreIdentifier2",
+		"thread-id": "5280"
+	},
+
+	"WatchKit Simulator Actions": [
+		{
+			"title": "First Button",
+			"identifier": "firstButtonAction"
+		}
+	],
+
+}
